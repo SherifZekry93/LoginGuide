@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E6FB84D213B2AB100F43DBF /* ViewController+collectionViewDelegateMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FB84C213B2AB100F43DBF /* ViewController+collectionViewDelegateMethods.swift */; };
+		7E6FB84F213B2BB600F43DBF /* ViewController+ControlsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FB84E213B2BB600F43DBF /* ViewController+ControlsDelegate.swift */; };
 		7EA1D1712139FE610018A567 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA1D1702139FE610018A567 /* AppDelegate.swift */; };
-		7EA1D1732139FE610018A567 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA1D1722139FE610018A567 /* ViewController.swift */; };
+		7EA1D1732139FE610018A567 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA1D1722139FE610018A567 /* LoginController.swift */; };
 		7EA1D1762139FE610018A567 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA1D1742139FE610018A567 /* Main.storyboard */; };
-		7EA1D1792139FE610018A567 /* LoginGuide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EA1D1772139FE610018A567 /* LoginGuide.xcdatamodeld */; };
 		7EA1D17B2139FE640018A567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EA1D17A2139FE640018A567 /* Assets.xcassets */; };
 		7EA1D17E2139FE640018A567 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA1D17C2139FE640018A567 /* LaunchScreen.storyboard */; };
+		7EA1D186213A0B040018A567 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA1D185213A0B040018A567 /* PageCell.swift */; };
+		7EA1D188213A696A0018A567 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA1D187213A696A0018A567 /* Page.swift */; };
+		7EA1D18A213AF6B20018A567 /* LoginCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA1D189213AF6B20018A567 /* LoginCell.swift */; };
+		7EC1117F213BB1DA00CFF334 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC1117E213BB1DA00CFF334 /* MainNavigationController.swift */; };
+		7EC11181213BBAFA00CFF334 /* anchorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC11180213BBAFA00CFF334 /* anchorExtension.swift */; };
+		7EC111B7213CE8A100CFF334 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC111B6213CE8A100CFF334 /* HomeController.swift */; };
+		7EC111B9213CEBA500CFF334 /* UserDefaults+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC111B8213CEBA500CFF334 /* UserDefaults+Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E6FB84C213B2AB100F43DBF /* ViewController+collectionViewDelegateMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+collectionViewDelegateMethods.swift"; sourceTree = "<group>"; };
+		7E6FB84E213B2BB600F43DBF /* ViewController+ControlsDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ControlsDelegate.swift"; sourceTree = "<group>"; };
 		7EA1D16D2139FE610018A567 /* LoginGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA1D1702139FE610018A567 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7EA1D1722139FE610018A567 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EA1D1722139FE610018A567 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		7EA1D1752139FE610018A567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7EA1D1782139FE610018A567 /* LoginGuide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoginGuide.xcdatamodel; sourceTree = "<group>"; };
 		7EA1D17A2139FE640018A567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EA1D17D2139FE640018A567 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EA1D17F2139FE640018A567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EA1D185213A0B040018A567 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		7EA1D187213A696A0018A567 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		7EA1D189213AF6B20018A567 /* LoginCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCell.swift; sourceTree = "<group>"; };
+		7EC1117E213BB1DA00CFF334 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		7EC11180213BBAFA00CFF334 /* anchorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anchorExtension.swift; sourceTree = "<group>"; };
+		7EC111B6213CE8A100CFF334 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		7EC111B8213CEBA500CFF334 /* UserDefaults+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Helpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +73,20 @@
 			isa = PBXGroup;
 			children = (
 				7EA1D1702139FE610018A567 /* AppDelegate.swift */,
-				7EA1D1722139FE610018A567 /* ViewController.swift */,
+				7EA1D1722139FE610018A567 /* LoginController.swift */,
 				7EA1D1742139FE610018A567 /* Main.storyboard */,
 				7EA1D17A2139FE640018A567 /* Assets.xcassets */,
 				7EA1D17C2139FE640018A567 /* LaunchScreen.storyboard */,
 				7EA1D17F2139FE640018A567 /* Info.plist */,
-				7EA1D1772139FE610018A567 /* LoginGuide.xcdatamodeld */,
+				7EA1D185213A0B040018A567 /* PageCell.swift */,
+				7EA1D187213A696A0018A567 /* Page.swift */,
+				7EA1D189213AF6B20018A567 /* LoginCell.swift */,
+				7E6FB84C213B2AB100F43DBF /* ViewController+collectionViewDelegateMethods.swift */,
+				7E6FB84E213B2BB600F43DBF /* ViewController+ControlsDelegate.swift */,
+				7EC1117E213BB1DA00CFF334 /* MainNavigationController.swift */,
+				7EC11180213BBAFA00CFF334 /* anchorExtension.swift */,
+				7EC111B6213CE8A100CFF334 /* HomeController.swift */,
+				7EC111B8213CEBA500CFF334 /* UserDefaults+Helpers.swift */,
 			);
 			path = LoginGuide;
 			sourceTree = "<group>";
@@ -138,9 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EA1D1732139FE610018A567 /* ViewController.swift in Sources */,
+				7EA1D1732139FE610018A567 /* LoginController.swift in Sources */,
 				7EA1D1712139FE610018A567 /* AppDelegate.swift in Sources */,
-				7EA1D1792139FE610018A567 /* LoginGuide.xcdatamodeld in Sources */,
+				7EC1117F213BB1DA00CFF334 /* MainNavigationController.swift in Sources */,
+				7EA1D18A213AF6B20018A567 /* LoginCell.swift in Sources */,
+				7EC111B7213CE8A100CFF334 /* HomeController.swift in Sources */,
+				7EC111B9213CEBA500CFF334 /* UserDefaults+Helpers.swift in Sources */,
+				7EC11181213BBAFA00CFF334 /* anchorExtension.swift in Sources */,
+				7E6FB84F213B2BB600F43DBF /* ViewController+ControlsDelegate.swift in Sources */,
+				7EA1D186213A0B040018A567 /* PageCell.swift in Sources */,
+				7E6FB84D213B2AB100F43DBF /* ViewController+collectionViewDelegateMethods.swift in Sources */,
+				7EA1D188213A696A0018A567 /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,19 +370,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		7EA1D1772139FE610018A567 /* LoginGuide.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				7EA1D1782139FE610018A567 /* LoginGuide.xcdatamodel */,
-			);
-			currentVersion = 7EA1D1782139FE610018A567 /* LoginGuide.xcdatamodel */;
-			path = LoginGuide.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 7EA1D1652139FE610018A567 /* Project object */;
 }
